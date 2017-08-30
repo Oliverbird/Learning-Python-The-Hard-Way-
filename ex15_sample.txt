@@ -1,0 +1,5 @@
+(below is from a text file,including this line)
+I type this sentence in the text file
+Can you believe that?
+Isn't it amazing?
+*******
