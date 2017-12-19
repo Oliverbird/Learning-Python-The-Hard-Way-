@@ -1,13 +1,13 @@
 from sys import argv
 
-script, filename=argv
-txt=open(filename)
+script, filename = argv
+txt = open(filename)
 
 print ('You are about to open %r: ' % filename)
 print (txt.read())
-print ('Type the exatc filename again:')
-file_again=input('>>>')
-txt_again= open(file_again)
+print ('Type the exact filename again:')
+file_again = input('>>>')
+txt_again = open(file_again)
 
 print (txt_again.read())
 txt.close
